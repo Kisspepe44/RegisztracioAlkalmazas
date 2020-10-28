@@ -31,7 +31,7 @@ namespace RegisztracioAlkalmazas
                     {
                         if (lb_hobbi.Items[x].ToString() == tb_newhobbi.Text.ToString())
                         {
-                            MessageBox.Show("Ez az elem már létezik. Kérem adjon meg egy másikat");
+                            MessageBox.Show("Ez az elem már létezik. Kérem adjon  meg egy másikat");
                         }
                         else { lb_hobbi.Items.Add((tb_newhobbi.Text).ToString()); }
 
